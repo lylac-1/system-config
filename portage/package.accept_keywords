@@ -1,0 +1,7 @@
+# because games, sure.
+*/*::steam-overlay ~amd64
+# bin because microsoft login.
+games-action/multimc-bin ~amd64
+
+# ranger image preview handler is actually some pip package, this is cleaner.
+media-gfx/ueberzug ~amd64
