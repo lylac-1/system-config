@@ -1,0 +1,18 @@
+#! /bin/sh
+# not included with kill all as its self regulating anyway and non dangerous to restart
+gentoo-pipewire-launcher & 
+killall -q sxhkd polybar
+~/.fehbg &
+sxhkd &
+polybar main &
+polybar alt &
+xsetroot -cursor_name left_ptr &
+
+bspc monitor DisplayPort-0 -d 1 2 3 4 5
+bspc monitor HDMI-A-0 -d 6 7 8 9 10
+
+bspc config border_width        0
+bspc config window_gap          10
+bspc config split_ratio         0.50
+bspc config borderless_monocle  true
+bspc config gapless_monocle     true
