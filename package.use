@@ -1,0 +1,10 @@
+# includes dhcpcd with iwd
+net-wireless/iwd standalone
+
+# prevent pulse from running itself, the package is required for its libs
+media-sound/pulseaudio -daemon
+
+x11-misc/polybar mpd network pulseaudio
+
+# screencast is not included due to it pulling some wayland stuff
+www-client/ungoogled-chromium optimize-webui proprietary-codecs widevine vaapi -screencast -hangouts -cups
