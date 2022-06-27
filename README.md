@@ -12,7 +12,7 @@ world-set is explicitly installed packages not all packages.
 `-nojoy` and `-novid` launch options are required to run natively, else the game will segfault
 
 ### quaver 
-`DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=1 %command%` launch command is required else the game will thrown an error and close
+`DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=1 %command%` launch command is required else the game will throw an error and close
 pipewire is also required, the game will bug the fuck out with a pulse server for seemingly no reason lmao
 
 ### forza horizon 5
