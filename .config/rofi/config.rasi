@@ -1,0 +1,11 @@
+configuration {
+modi: "drun";
+lines: 6;
+columns: 1;
+/*font: "SF Pro Display 14";*/
+hide-scrollbar: true;
+drun-display-format: "{name}";
+cycle: false;
+}
+
+@theme "mytheme.rasi"
