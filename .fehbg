@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --no-fehbg --bg-fill '/mnt/storage/Pictures/wallpapers/1602565783263.png'
