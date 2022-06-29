@@ -1,4 +1,5 @@
-# <fs>			<mountpoint>	<type>		<opts>		<dump/pass>
-LABEL=boot		/boot		vfat	noauto,noatime	1 2
-LABEL=gentoo		/		btrfs	rw,noatime,thread_pool=16,compress=zstd:9,ssd,space_cache=v2	1 2
-LABEL=storage		/mnt/storage	btrfs	rw,noatime,thread_pool=16,compress=zstd:9,ssd,space_cache=v2	1 2
+# <fs>			<mountpoint>	    <type>  <opts>		                                                    <dump/pass>
+LABEL=boot		  /boot		      vfat    noauto,noatime	                                              1 2
+LABEL=root  		/		          btrfs	  rw,noatime,thread_pool=16,compress=zstd:9,ssd,space_cache=v2	1 2
+LABEL=storage		/mnt/storage	btrfs	  rw,noatime,thread_pool=16,compress=zstd:9,ssd,space_cache=v2	1 2
+LABEL=games  		/mnt/games	  btrfs	  rw,noatime,thread_pool=16,compress=zstd:9,ssd,space_cache=v2	1 2
