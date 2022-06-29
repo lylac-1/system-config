@@ -8,7 +8,7 @@ world-set is explicitly installed packages not all packages.
 
 ## kernel config
 
-https://github.com/lylac-1/system-config/blob/main/kernel/readme.md
+https://github.com/lylac-1/system-config/tree/main/kernel
 
 ## gamering
 
