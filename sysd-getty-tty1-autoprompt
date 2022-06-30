@@ -1,0 +1,2 @@
+[Service]
+ExecStart=-/sbin/agetty -o '-p -- lylac' --noclear --skip-login - $TERM
