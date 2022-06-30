@@ -9,6 +9,8 @@ world-set is explicitly installed packages not all packages. and is neither up t
 
 ## UI / visual junk
 ***JUST LOOK AT [.config](https://github.com/lylac-1/system-config/tree/main/.config)***  
+![image](https://user-images.githubusercontent.com/102007132/176636580-26893066-9afe-497b-a461-3ee8af5652ad.png)
+
 
 colours are from here [mountain-theme](https://github.com/mountain-theme/Mountain)
 
