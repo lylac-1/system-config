@@ -12,6 +12,8 @@ world-set is explicitly installed packages not all packages. and is neither up t
 
 colours are from here [mountain-theme](https://github.com/mountain-theme/Mountain)
 
+this "rice" is really nothing and most likely takes heavily from desktops ive seen online. if you recognize something let me know
+
 ## kernel config
 [kernel config / info](https://github.com/lylac-1/system-config/tree/main/kernel)
 
