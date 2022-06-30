@@ -6,6 +6,11 @@ runs gentoo sysd stable line ( exception for games/game libs )
 
 world-set is explicitly installed packages not all packages.
 
+# UI / visual junk
+***JUST LOOK AT `.config`***
+colours are from here https://github.com/mountain-theme/Mountain
+
+
 ## kernel config
 
 https://github.com/lylac-1/system-config/tree/main/kernel
