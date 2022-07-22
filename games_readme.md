@@ -6,10 +6,11 @@
 pipewire is also required, the game will bug the fuck out with a pulse server for seemingly no reason lmao
 
 ## forza horizon 5
-fullscreen cant be used. window manager controlled fullscreen is fine, ingame full screen option is not (the screen will go black) ( this is common for bspwm, unsure about other solutions )
+game creates a 2nd black window, this can be safely ignored the game window itself works fine.
+in bspwm the 2nd window is the first to go to fullscreen so it can seem like the game has no display.
 
 ## multimc-bin
 emerge java 8 and 17 before emerging this package else portage will pull java11 for what ever reason
 
-## project diva
-default config switches A and B for some reason, personal preference to change that back.
+## minecraft versions on java 8
+using alternative Xorg configs causes the game to be unable to start without xrandr installed. 
