@@ -21,3 +21,6 @@ this "rice" is really nothing and most likely takes heavily from desktops ive se
 
 ## gamering
 [notes on games](https://github.com/lylac-1/system-config/blob/main/games_readme.md)
+
+## extras
+[misc issues](https://github.com/lylac-1/system-config/blob/main/extras.md)
